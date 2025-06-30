@@ -44,7 +44,7 @@ function App () {
           </div>
           <div className="prof">
             <p>🏢{userInfo.company}</p>
-            <p>✍️ {userInfo.bio}</p>
+            <p className="bio">✍️ {userInfo.bio}</p>
           </div>
         </div>
         <div className="userImage">

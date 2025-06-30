@@ -58,7 +58,7 @@
   padding: 10px;
   margin: 8px;
   color: white;
-  width: 50vw;
+  width: 30vw;
   min-width: 20px;
   box-shadow: 0 0 6px rgba(0,0,0, .2);
 }
@@ -132,7 +132,7 @@
 }
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
   .formCard{
     flex-direction: column;
     /* justify-content: center; */
@@ -143,6 +143,15 @@
   }
   .prof p{
     width: 100%;
+  }
+  .formCard input{
+    width: 90vw;
+  }
+  .formCard button{
+    width: 90vw;
+  }
+  .bio{
+    font-size: 0.7em;
   }
   
 }
