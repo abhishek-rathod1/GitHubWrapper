@@ -24,7 +24,7 @@ function App () {
   return (
     <>
       <div className="container">
-      <h1 className="heading">GitHub Wrapper</h1>
+      <h1 className="heading">Git Dekho</h1>
       <form className="formCard" onSubmit={handleFormSubmit}>
         <input type="text" onChange={(e)=>setUsername(e.target.value)}></input>
         <button>Search</button>
