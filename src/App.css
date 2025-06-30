@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   color: white;
   font-size: calc(10px + 2vmin);
   text-align: center;
@@ -57,7 +58,8 @@
   padding: 10px;
   margin: 8px;
   color: white;
-  min-width: 520px;
+  width: 50vw;
+  min-width: 20px;
   box-shadow: 0 0 6px rgba(0,0,0, .2);
 }
 
@@ -127,4 +129,20 @@
   border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 6px rgba(0,0,0, .2);
+}
+
+
+@media screen and (max-width:425px) {
+  .formCard{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .userDetailCard{
+    min-height: auto;
+  }
+  .prof p{
+    width: 100%;
+  }
+  
 }
