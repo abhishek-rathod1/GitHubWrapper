@@ -25,8 +25,9 @@ function App () {
     <>
       <div className="container">
       <h1 className="heading">Git Dekho</h1>
+      <p className="desc">Ek chhoti si React app jisme aap kisi bhi GitHub user ka profile dekh sakte ho — naam, followers, company, aur repo count sab kuch!</p>
       <form className="formCard" onSubmit={handleFormSubmit}>
-        <input type="text" onChange={(e)=>setUsername(e.target.value)}></input>
+        <input placeholder="enter github username" type="text" onChange={(e)=>setUsername(e.target.value)}></input>
         <button>Search</button>
       </form>
       {userInfo && (<div className="userDetailCard">
